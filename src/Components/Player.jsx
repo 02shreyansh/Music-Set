@@ -3,22 +3,22 @@ import Cards from './Cards'
 import '../Css/Player.css'
 const Player = () => {
     const images={
-        crash:"/assets/images/crash.png",
-        kick:"/assets/images/kick.png",
-        snare:"/assets/images/snare.png",
-        tom_1:"/assets/images/tom1.png",
-        tom_2:"/assets/images/tom2.png",
-        tom_3:"/assets/images/tom3.png",
-        tom_4:"/assets/images/tom4.png",
+        crash:"./assets/images/crash.png",
+        kick:"./assets/images/kick.png",
+        snare:"./assets/images/snare.png",
+        tom_1:"./assets/images/tom1.png",
+        tom_2:"./assets/images/tom2.png",
+        tom_3:"./assets/images/tom3.png",
+        tom_4:"./assets/images/tom4.png",
     };
     const Sounds={
-        crash:"/assets/Sounds/crash.mp3",
-        kick:"/assets/Sounds/kick-bass.mp3",
-        snare:"/assets/Sounds/snare.mp3",
-        tom_1:"/assets/Sounds/tom-1.mp3",
-        tom_2:"/assets/Sounds/tom-2.mp3",
-        tom_3:"/assets/Sounds/tom-3.mp3",
-        tom_4:"/assets/Sounds/tom-4.mp3",
+        crash:"./assets/Sounds/crash.mp3",
+        kick:"./assets/Sounds/kick-bass.mp3",
+        snare:"./assets/Sounds/snare.mp3",
+        tom_1:"./assets/Sounds/tom-1.mp3",
+        tom_2:"./assets/Sounds/tom-2.mp3",
+        tom_3:"./assets/Sounds/tom-3.mp3",
+        tom_4:"./assets/Sounds/tom-4.mp3",
     }
   return (
     <div className='w-full h-full duration-200  bg-cover bg-center first'>
